@@ -31,3 +31,11 @@ Git Push Tags
 --delete: It deletes the specified branch.
 
 -u: It creates an upstream tracking connection. It is very useful if you are going to push the branch for the first time.
+
+Usage of cherry-pick
+It is a handy tool for team collaboration.
+It is necessary in case of bug fixing because bugs are fixed and tested in the development branch with their commits.
+It is mostly used in undoing changes and restoring lost commits.
+You can avoid useless conflicts by using git cherry-pick instead of other options.
+It is a useful tool when a full branch merge is not possible due to incompatible versions in the various branches.
+The git cherry-pick is used to access the changes introduced to a sub-branch, without changing the branch.
